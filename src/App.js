@@ -3,8 +3,7 @@ import React, { Component } from 'react';
 class App extends Component {
   render() {
     return (
-      <div>
-      </div>
+      React.Children.only(this.props.children)
     );
   }
 }
