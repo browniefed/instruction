@@ -1,3 +1,8 @@
 .container {
   margin-top: 15px;
 }
+
+.text {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}

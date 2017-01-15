@@ -1,0 +1,13 @@
+@value text, bold from "../../css/titles.css";
+@value dark_blue from '../../css/colors.css';
+
+.title {
+  color: dark_blue;
+  font-size: 2.5rem;
+  composes: text;
+  composes: bold;
+}
+.subtitle {
+  color: dark_blue;
+  font-size: 1.2rem;
+}

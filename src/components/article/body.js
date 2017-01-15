@@ -5,7 +5,7 @@ import Css from "./body.css";
 const Body = ({ children, ...props}) => {
   return (
     <div className={cx("row", Css.container)}>
-      <div className="col-xs-12">
+      <div className={cx("col-xs-12", Css.text)}>
         {children}
       </div>
     </div>

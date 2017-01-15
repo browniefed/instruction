@@ -3,7 +3,7 @@ import Css from "./title.css";
 
 const Title = ({ children, ...props}) => {
   return (
-    <span className={Css.text} {...props}>{children}</span>
+    <h1 className={Css.title} {...props}>{children}</h1>
   );
 };
 
