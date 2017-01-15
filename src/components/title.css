@@ -1,0 +1,6 @@
+@value dark_blue from '../css/colors.css';
+
+.text {
+  color: dark_blue;
+  font-size: 2rem;
+}

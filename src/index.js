@@ -5,6 +5,8 @@ import App from './app';
 import Home from "./pages/home";
 import About from "./pages/about";
 
+import "./global.css";
+
 const routes = (
   <Router history={browserHistory}>
     <Route path="/" component={App}>

@@ -6,8 +6,8 @@ import Css from "./header.css";
 const Header = props => {
   return (
     <div className={Css.container}>
-      <Link to="/">Home</Link>
-      <Link to="/about">About</Link>
+      <Link to="/" className={Css.link}>Home</Link>
+      <Link to="/about" className={Css.link}>About</Link>
     </div>
   );
 };
