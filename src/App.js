@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import { Link } from "react-router";
+
+import Header from "./header";
+
+import Css from "./app.css";
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <div>
-          <Link to="/">Home</Link>
-          <Link to="/about">About</Link>
-        </div>
+      <div className={Css.container}>
+        <Header />
         <div>
           {React.Children.only(this.props.children)}
         </div>
