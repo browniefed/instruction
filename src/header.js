@@ -1,19 +1,20 @@
-import React, {PropTypes} from 'react';
+import React from 'react';
+import cx from "classnames";
 import { Link } from "react-router";
 
 import Css from "./header.css";
 
 const Header = props => {
   return (
-    <div className={Css.container}>
-      <Link to="/" className={Css.link}>Home</Link>
-      <Link to="/about" className={Css.link}>About</Link>
+    <div className={cx(Css.container, "row")}>
+      <div className="col-xs-11">
+        <Link to="/" className={Css.link}>Home</Link>
+      </div>
+      <div className="col-xs-1">
+        <Link to="/about" className={Css.link}>About</Link>
+      </div>
     </div>
   );
-};
-
-Header.propTypes = {
-  
 };
 
 export default Header;
