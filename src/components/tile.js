@@ -3,12 +3,12 @@ import cx from "classnames";
 
 import Css from "./tile.css";
 
-const Tile = ({ title, ...props}) => {
+const Tile = ({ title, logo, ...props}) => {
   return (
     <div className={cx(Css.container)}>
       <div className={Css.gradient} />
-      <span>Category</span>
-      <span>{title}</span>
+      <h1 className={Css.title}>{title}</h1>
+      {logo && <img className={Css.logo} src={logo} alt={title} />}
     </div>
   );
 };
