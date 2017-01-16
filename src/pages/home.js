@@ -18,7 +18,7 @@ class Home extends Component {
                         return (
                           <div 
                             key={title} 
-                            className={cx("col-xs-12 col-sm-3 col-md-3", Css.tile_spacing)}
+                            className={cx("col-xs-12 col-sm-4 col-md-4", Css.tile_spacing)}
                           >
                             <Tile 
                               onClick={() => this.props.router.push({
