@@ -4,6 +4,7 @@ import ReactLogo from "../public/react_logo.svg";
 import ReduxLogo from "../public/redux_logo.svg";
 import CssLogo from "../public/css_logo.svg";
 import JestLogo from "../public/jest_logo.svg";
+import WebpackLogo from "../public/webpack_logo.svg";
 
 const categories = [
   {
@@ -13,6 +14,10 @@ const categories = [
   {
     title: "Jest",
     logo: JestLogo
+  },
+  {
+    title: "Webpack",
+    logo: WebpackLogo
   },
   {
     title: "Redux",
