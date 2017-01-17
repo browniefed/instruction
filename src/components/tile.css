@@ -1,5 +1,6 @@
 @value cream, blue, teal, red, dark_blue: from "../css/colors.css";
 @value text, bold: from "../css/titles.css";
+@value gradient_spacing: 4px;
 
 .container {
   border-radius: 5px;
@@ -8,7 +9,7 @@
   box-shadow: 0px 2px 2px 3px rgba(0,0,0, .05);
   padding: 5px;
   margin: 0;
-  padding-top: 2px;
+  padding-top: gradient_spacing;
   width: 100%;
   background: transparent;
   position: relative;
@@ -19,7 +20,7 @@
 }
 
 .gradient {
-  height: 2px;
+  height: gradient_spacing;
   background: blue;
   position: absolute;
   top: 0;

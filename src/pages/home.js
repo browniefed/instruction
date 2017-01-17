@@ -12,6 +12,17 @@ class Home extends Component {
           <div className={Css.spacing}>
             <div className="row">
               <div className="col-xs-12 col-md-6 col-md-offset-3">
+                Latest article preview
+                Or if it's something else then custom preview
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-xs-12 col-md-6 col-md-offset-3">
+                top 5 recent things 
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-xs-12 col-md-6 col-md-offset-3">
                 <div className="row">
                     {
                       categories.map(({title, logo}) => {
