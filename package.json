@@ -49,6 +49,7 @@
   },
   "dependencies": {
     "classnames": "^2.2.5",
+    "express": "^4.14.0",
     "global": "^4.3.1",
     "history": "^3.2.1",
     "postcss-modules-values": "^1.2.2",
@@ -61,8 +62,9 @@
     "yarn": "^0.18.1"
   },
   "scripts": {
-    "start": "node scripts/start.js",
     "build": "node scripts/build.js",
+    "start": "node scripts/start.js",
+    "now-start": "node server.js",
     "test": "node scripts/test.js --env=jsdom"
   },
   "jest": {
